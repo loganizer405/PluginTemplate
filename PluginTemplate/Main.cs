@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 
 namespace PluginTemplate
 {
-    [ApiVersion(1, 15)]
+    [ApiVersion(1, 16)]
     public class PluginTemplate : TerrariaPlugin
     {
         string path = Path.Combine(TShock.SavePath, "PluginTemplate.json");
@@ -69,7 +69,13 @@ namespace PluginTemplate
                 Config.Write(path);
             }
             Config = Config.Read(path);
-            //add commands here
+            //add commands here. example:
+            Commands.ChatCommands.Add(new Command("permission", CommandName, "commandWithoutSlash");
+
+        }
+        //here is the above command:
+        void CommandName(CommandArgs args)
+        {
         }
     }
 }
