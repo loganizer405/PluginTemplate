@@ -70,7 +70,7 @@ namespace PluginTemplate
             }
             Config = Config.Read(path);
             //add commands here. example:
-            Commands.ChatCommands.Add(new Command("permission", CommandName, "commandWithoutSlash");
+            Commands.ChatCommands.Add(new Command("permission", CommandName, "commandWithoutSlash"));
 
         }
         //here is the above command:
