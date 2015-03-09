@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 
 namespace PluginTemplate
 {
-    [ApiVersion(1, 16)]
+    [ApiVersion(1, 17)]
     public class PluginTemplate : TerrariaPlugin
     {
         string path = Path.Combine(TShock.SavePath, "PluginTemplate.json");
